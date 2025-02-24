@@ -97,7 +97,45 @@ def generate_response(prompt, model="gpt-4o-mini"):
 ## Follow up questions generation
 The follow-up question generation approach remains the same, leveraging ChatGPT-4o-mini's capabilities to extract key medical terms and concepts from the original query and generated answer.
 The prompt asks the model to create references, follow up questions and then the response from the LLM is given as user output.
+```
+User Prompt: "What are the early warning signs of lung cancer?"
 
+LLM Response:
+
+Early warning signs of lung cancer can be subtle and easily overlooked. Some common symptoms include:
+
+Persistent cough that doesn't go away or worsens over time
+
+Coughing up blood or rust-colored sputum
+
+Chest pain that worsens with deep breathing, coughing, or laughing
+
+Hoarseness or changes in voice
+
+Shortness of breath or wheezing
+
+Recurrent respiratory infections like bronchitis or pneumonia
+
+Unexplained weight loss and loss of appetite
+
+It's important to note that these symptoms can also be caused by other conditions. If you experience any of these signs persistently, especially if you have risk factors such as smoking, it's crucial to consult a healthcare professional for proper evaluation1.
+
+References:
+
+American Cancer Society. "Signs and Symptoms of Lung Cancer." 2024.
+
+National Cancer Institute. "Lung Cancer - Patient Version." 2025.
+
+Follow-up Questions:
+
+What are the main risk factors for developing lung cancer?
+
+How is lung cancer typically diagnosed and staged?
+
+What are the current treatment options available for lung cancer patients?
+
+Disclaimer: This information is provided for educational purposes only and should not be considered as professional medical advice. Always consult with a qualified healthcare provider for proper diagnosis and treatment of any medical condition.
+```
 
 ## Setup and How to run the code
 I have uploaded the code and the given the link to my google colab notebook. The PDFs are stored on my google drive and the API keys used are my own. Rest all dependencies are included in the code as download statements.

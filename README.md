@@ -99,4 +99,9 @@ The follow-up question generation approach remains the same, leveraging ChatGPT-
 The prompt asks the model to create references, follow up questions and then the response from the LLM is given as user output.
 
 
+## Setup and How to run the code
+I have uploaded the code and the given the link to my google colab notebook. The PDFs are stored on my google drive and the API keys used are my own. Rest all dependencies are included in the code as download statements.
+So, to run the code just run the entire colab notebook at the last there will be a prompt to enter the query.
+
+
 

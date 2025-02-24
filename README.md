@@ -142,4 +142,3 @@ I have uploaded the code and the given the link to my google colab notebook. The
 So, to run the code just run the entire colab notebook at the last there will be a prompt to enter the query.
 
 
-

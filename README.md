@@ -141,4 +141,5 @@ Disclaimer: This information is provided for educational purposes only and shoul
 I have uploaded the code and the given the link to my google colab notebook. The PDFs are stored on my google drive and the API keys used are my own. Rest all dependencies are included in the code as download statements.
 So, to run the code just run the entire colab notebook at the last there will be a prompt to enter the query.
 
+![alt text](https://github.com/rohan-kalra904/RAG-Pipeline/blob/79f423ef08c7859d9210582bb798c8c15960139e/Architecture%20Diagram?raw=true)
 
